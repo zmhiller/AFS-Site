@@ -5,8 +5,6 @@
   --secondaryColor:#696969;
   --borderColor:yellow;
   --mainBGImage:"#";
-
-
 }
 
 
@@ -17,15 +15,34 @@ html, body{
 
 h1, h2, h3, h4, h5{
   color: var(--mainText);
+  font-family: 'Russo One', sans-serif;
 }
 
 p, li, span, label, input, textarea{
   color: var(--secondaryText);
+  font-family: 'Roboto', sans-serif;
 }
 
 h6, strong{
+  font-family: 'Russo One', sans-serif;
   color:white;
 }
+
+a{
+  text-decoration: none;
+  color: #009dd1;
+}
+
+ul{
+  list-style: none;
+}
+
+h1 { font-size: 76px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
 
 .fixed-elements{
   background-color:black;
