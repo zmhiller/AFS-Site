@@ -74,3 +74,41 @@ h6 { font-size: 16px;}
       width: 95%;
     }
 }
+
+.nav-wrapper{
+  display: grid;
+  border:1px dashed color: var(--borderColor);
+  min-height: 2em;
+  text-align: center;
+  align-content: center;
+}
+
+.testimonial-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 'testimonial1 testimonial2 testimonial3' 'testimonial1-source testimonial2-source testimonial3-source';
+}
+
+.testimonial1{
+  grid-area: testimonial1;
+}
+
+.testimonial2{
+  grid-area: testimonial2;
+}
+
+.testimonial3{
+  grid-area: testimonial3;
+}
+
+.testimonial1-source{
+  grid-area: testimonial1-source;
+}
+
+.testimonial2-source{
+  grid-area: testimonial2-source;
+}
+
+.testimonial3-source{
+  grid-area: testimonial3-source;
+}
