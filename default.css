@@ -78,7 +78,7 @@ h6 { font-size: 16px;}
 .nav-wrapper{
   display: grid;
   border:1px dashed color: var(--borderColor);
-  min-height: 2em;
+  min-height: 1em;
   text-align: center;
   align-content: center;
 }
