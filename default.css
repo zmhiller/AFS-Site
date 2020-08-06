@@ -79,6 +79,7 @@ h6 { font-size: 16px;}
   display: grid;
   border:1px dashed color: var(--borderColor);
   min-height: 1em;
+  max-height: 3em;
   text-align: center;
   align-content: center;
 }
@@ -111,4 +112,12 @@ h6 { font-size: 16px;}
 
 .testimonial3-source{
   grid-area: testimonial3-source;
+}
+
+.footer-wrapper{
+  display: grid;
+  border:1px dashed color: var(--borderColor);
+  min-height: 1em;
+  text-align: center;
+  align-content: center;
 }
