@@ -1,0 +1,59 @@
+:root{
+  --mainText:black;
+  --secondaryText:darkgrey;
+  --mainColor:#dbd1d0;
+  --secondaryColor:#696969;
+  --borderColor:yellow;
+  --mainBGImage:"#";
+
+
+}
+
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5{
+  color: var(--mainText);
+}
+
+p, li, span, label, input, textarea{
+  color: var(--secondaryText);
+}
+
+h6, strong{
+  color:white;
+}
+
+.fixed-elements{
+  background-color:black;
+  border:1px solid var(--borderColor);
+}
+
+.s1{
+  background-color: var(--mainColor);
+  border:1px solid var(--borderColor);
+}
+
+.s2{
+  background-color: var(--secondaryColor);
+  border:1px solid var(--borderColor);
+}
+
+.testimonials{
+  background-color:black;
+  border:1px solid var(--borderColor);
+}
+
+.main-container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px){
+    .main-container{
+      width: 95%;
+    }
+}
